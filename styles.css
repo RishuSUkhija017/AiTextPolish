@@ -1,0 +1,35 @@
+.text-enhancer-popup {
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .text-enhancer-popup h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .text-enhancer-popup button {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .text-enhancer-popup button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .text-enhancer-popup p {
+    margin-bottom: 10px;
+    word-wrap: break-word;
+  }

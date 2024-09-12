@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Text Enhancer",
+  "version": "1.0",
+  "description": "Enhance text using Google Gemini API",
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
